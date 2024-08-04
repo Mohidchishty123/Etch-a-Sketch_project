@@ -1,0 +1,17 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px; /* Adjust as needed */
+    margin: auto;
+}
+
+.square {
+    border: 1px solid black;
+    width: calc(960px / 16 - 2px); /* Adjust based on the number of squares */
+    height: calc(960px / 16 - 2px); /* Adjust based on the number of squares */
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+}
